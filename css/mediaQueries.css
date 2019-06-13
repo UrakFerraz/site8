@@ -1,0 +1,163 @@
+@media (min-width: 1800px) {
+	.headTitle {
+		padding: 100px 0 50px 0;
+		font-size: 70px;
+	}
+
+	#img1 {
+		width: 40%;
+	}
+
+	.headText {
+		padding: 0 100px;
+	}
+}
+
+
+
+
+
+
+
+
+/*########################################################################################################################*/
+@media (min-width: 890px) and (max-width: 1799px) {
+
+}
+
+
+
+
+/*########################################################################################################################*/
+@media (min-width: 600px) and (max-width: 889px) {
+	.dicaTagTitle {
+		font-size: 100px;
+		padding-right: 10px;
+	}
+
+	.dicaTagText {
+		font-size: 40px
+	}
+
+	#triangle-down {
+		right: 110px;
+	}
+	.headTitle {
+	font-size: 45px;
+	padding: 40px 10px 10px 10px;
+}
+}
+
+
+
+
+
+
+/*########################################################################################################################*/
+@media (min-width: 320px) and (max-width: 599px) {
+
+	#img1 {
+	float: none;
+	width: 100%;
+	display: block;
+	shape-outside: none;
+	align-self: flex-end;
+	}
+
+
+	#img2, #img3, #img4, #img5, #img6 {
+		float: none;
+		width: 80%;
+		display: block;
+		shape-outside: none;
+		align-self: flex-start;
+	}
+
+	.triangle-down {
+		right: 40px;
+	}
+
+	.dicaTagText {
+		font-size: 30px;
+		display:block;
+		position: relative;
+	}
+
+	.dicaTagTitle {
+	font-size: 50px;
+	padding-right: 10px;
+	font-weight: 600;
+	}
+
+	.headTitle {
+		font-size: 45px;
+		padding: 10px;
+	}
+
+	.headText {
+		font-size: 16px;
+		padding: 10px;
+	}
+
+	.dicasContent {
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}
+
+.splashesWrapper {
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto;
+	margin: 30px;
+}
+
+.reverterSvg, .laptopSvg, .dicasSvg, .graphSvg {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  padding: 10px;
+  align-self: center;
+  justify-self: center;
+}
+
+.splashesTitles {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	text-align: center;
+}
+
+.splashesTexts {
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+}
+
+.dicasText {
+	font-size: 16px;
+	padding: 30px 10px;
+}
+
+header button {
+	font-size: 14px;
+	margin-right: 0;
+}
+
+.finalTextWrapper {
+	padding: 20px;
+	width: 90vw;
+	margin: 50px auto;
+	font-size: 16px;
+	box-sizing: border-box;
+	display: block;
+	position: relative;
+}
+
+
+   .footer-container h3, .footer-container p {
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+}
